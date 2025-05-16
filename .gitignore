@@ -1,0 +1,74 @@
+# Node.js / Svelte / SvelteKit
+node_modules/
+npm-debug.log
+yarn-error.log
+.svelte-kit/
+build/
+dist/
+.env
+.env.local
+.env.development
+.env.production
+*.env.backup
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Python / Flask / FastAPI
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+*.egg-info/
+pip-log.txt
+Pipfile.lock
+*.pip
+.pytest_cache/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# AWS
+.aws/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+.awscache/
+aws_logs/
+*.zip  # Lambda deployment packages
+
+# General Development
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Local Secrets
+secrets.json
+credentials.json
+*.pem
+*.key
+*.crt
+
+# Build Artifacts
+/static/build/
+/frontend/build/
+/frontend/dist/
+
+# Testing
+/coverage/
+/reports/
+
+# Misc
+*.sqlite3
+*.db
+*.sql
+*.dump
